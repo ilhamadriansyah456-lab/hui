@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#160b1f">
+  <title>Birthday Gift ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="stars"></div>
+  <canvas id="fireworks"></canvas>
+
+  <header class="nav">
+    <div class="brand">for <span id="navName">you</span> ♡</div>
+    <button class="music-btn" id="musicBtn" aria-label="Putar musik">♫ <span>Music</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">A little birthday surprise</div>
+        <h1>Happy Birthday,<br><em id="heroName">Sayang</em> ♡</h1>
+        <p class="lead" id="heroIntro">
+          Hari ini bukan sekadar bertambahnya usia. Hari ini adalah alasan untuk merayakan seseorang yang begitu berarti.
+        </p>
+        <div class="hero-actions">
+          <button class="primary" id="openGift">Buka hadiahku <span>↗</span></button>
+          <a class="ghost" href="#memories">Lihat kenangan ↓</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-glow"></div>
+        <div class="hero-photo">
+          <img src="images/photo1.jpg" alt="Foto kenangan">
+          <div class="photo-label">my favorite person</div>
+        </div>
+        <div class="floating-note note-one">you ♡</div>
+        <div class="floating-note note-two">so precious</div>
+      </div>
+    </section>
+
+    <section class="countdown-section">
+      <div>
+        <span class="section-kicker">THE SPECIAL DAY</span>
+        <h2>Menuju hari ulang tahunmu</h2>
+        <p id="dateText">23 Agustus 2026 · Hari spesialmu ♡</p>
+      </div>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">00</strong><span>Days</span></div>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="letter-section" id="letter">
+      <div class="section-kicker">A LETTER FOR YOU</div>
+      <h2>There is something<br><em>I want you to know.</em></h2>
+      <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Buka surat">
+        <div class="envelope-back"></div>
+        <div class="letter-paper">
+          <span>Untuk <b id="letterName">Sayang</b>,</span>
+          <p>Untuk seseorang yang selalu punya tempat spesial di hatiku. ♡</p>
+          <small>tap to read</small>
+        </div>
+        <div class="flap"></div>
+        <div class="seal">♡</div>
+      </div>
+    </section>
+
+    <section class="memories" id="memories">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">OUR LITTLE ARCHIVE</span>
+          <h2>Potongan kecil<br><em>yang selalu ingin kuingat.</em></h2>
+        </div>
+        <p>Scroll pelan-pelan. Setiap foto punya ceritanya sendiri.</p>
+      </div>
+      <div class="gallery">
+        <figure class="memory large"><img src="images/photo2.jpg" alt="Kenangan 1"><figcaption><b>01</b><span>the little things</span></figcaption></figure>
+        <figure class="memory"><img src="images/photo3.jpg" alt="Kenangan 2"><figcaption><b>02</b><span>your smile</span></figcaption></figure>
+        <figure class="memory tall"><img src="images/photo4.jpg" alt="Kenangan 3"><figcaption><b>03</b><span>always you</span></figcaption></figure>
+        <figure class="memory baby"><img src="images/photo5.jpg" alt="Foto masa kecil"><figcaption><b>04</b><span>once upon a time</span></figcaption></figure>
+        <figure class="memory"><img src="images/photo6.jpg" alt="Kenangan 5"><figcaption><b>05</b><span>beautiful soul</span></figcaption></figure>
+        <figure class="memory wide"><img src="images/photo7.jpg" alt="Kenangan 6"><figcaption><b>06</b><span>little adventures</span></figcaption></figure>
+        <figure class="memory"><img src="images/photo8.jpg" alt="Kenangan 7"><figcaption><b>07</b><span>my favorite view</span></figcaption></figure>
+        <figure class="memory"><img src="images/photo9.jpg" alt="Kenangan 8"><figcaption><b>08</b><span>soft moments</span></figcaption></figure>
+        <figure class="memory wide"><img src="images/photo10.jpg" alt="Kenangan 9"><figcaption><b>09</b><span>and more to come</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="wish-section">
+      <div class="wish-card">
+        <div class="wish-icon">✦</div>
+        <span class="section-kicker">MY WISH FOR YOU</span>
+        <h2>Semoga semua hal baik<br>selalu menemukan jalan menuju kamu.</h2>
+        <p>Semoga kamu selalu sehat, bahagia, dikelilingi orang-orang yang tulus, dan dimudahkan dalam setiap langkah. Semoga senyummu selalu punya alasan untuk hadir. Dan kalau dunia terasa berat, ingatlah: aku akan selalu mendoakanmu dan mendukungmu sebisaku.</p>
+        <div class="signature">with all my heart, <span>♡</span></div>
+      </div>
+    </section>
+
+    <section class="final-section">
+      <div class="final-heart">♡</div>
+      <span class="section-kicker">ONE LAST THING</span>
+      <h2>Satu hal terakhir...</h2>
+      <p>Maukah kamu terus membuat banyak kenangan indah bersamaku?</p>
+      <button class="love-button" id="loveButton">I LOVE YOU <span>♡</span></button>
+      <div class="love-response" id="loveResponse">I knew it. hehe ♡</div>
+    </section>
+  </main>
+
+  <footer>
+    Made with too much love · <span id="footerName">you</span> ♡
+  </footer>
+
+  <div class="modal" id="letterModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="close" id="closeModal">×</button>
+      <div class="modal-kicker">A LETTER, JUST FOR YOU</div>
+      <h2>Happy Birthday, <em id="modalName">Sayang</em> ♡</h2>
+      <div class="modal-body" id="letterBody">
+        <p>Selamat ulang tahun, sayang. ♡</p>
+        <p>Di hari istimewamu ini, aku cuma ingin kamu tahu betapa berharganya kamu buatku. Terima kasih sudah hadir, menjadi bagian dari cerita hidupku, dan memberikan begitu banyak warna dalam hari-hariku.</p>
+        <p>Aku mungkin tidak selalu pandai mengungkapkan perasaan, tapi aku ingin terus belajar menjadi seseorang yang bisa membuatmu merasa dicintai, dihargai, dan tidak pernah sendirian.</p>
+        <p>Semoga di usia barumu, kamu selalu sehat, bahagia, dilindungi dalam setiap langkah, dimudahkan mengejar semua impianmu, dan dipertemukan dengan banyak hal baik.</p>
+        <p>Kalau suatu hari kamu merasa lelah, semoga kamu ingat bahwa ada seseorang yang selalu percaya pada kamu dan ingin melihatmu tersenyum.</p>
+        <p class="closing">Happy birthday, my favorite person. Aku sayang kamu, hari ini, besok, dan seterusnya. ♡</p>
+      </div>
+      <button class="primary" id="closeModal2">Tutup surat</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">♡ Kamu adalah hadiah favoritku.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
